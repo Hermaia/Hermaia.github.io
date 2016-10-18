@@ -1,0 +1,28 @@
+extends ../layout
+
+
+block header
+  title
+    | Hermaia
+  link(rel= "stylesheet", href= "/assets/css/index.css")
+
+block content
+  include ../components/navbar
+  +navbar("/")
+
+
+  div.jumbotron
+    div.container
+      h1
+        | Hermaia
+      
+      p.lead
+        | I will be better !!
+
+
+  include ../components/footer
+
+
+
+block script
+  script(type="text/javascript" src="/assets/js/index.js")

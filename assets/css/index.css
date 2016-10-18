@@ -1,0 +1,20 @@
+.white-space {
+  white-space: nowrap;
+}
+.white-space:after {
+  content: "  ";
+}
+
+body {
+  padding-top: 50px;
+  overflow-y: scroll;
+}
+
+.jumbotron .container {
+  text-align: center;
+}
+.jumbotron .container h1 {
+  font-weight: 200;
+}
+
+/*# sourceMappingURL=index.css.map */

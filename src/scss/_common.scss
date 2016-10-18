@@ -1,0 +1,10 @@
+//
+// create white space
+// --------------------------------------------------
+.white-space {
+  white-space : nowrap;
+
+  &:after {
+    content : "  ";
+  }
+}

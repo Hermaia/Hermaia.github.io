@@ -1,0 +1,30 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "removeComments": true,
+        "jsx": "react"
+    },
+    "filesGlob": [
+        "./ts/**/*.ts",
+        "./ts/**/*.tsx",
+        "!./ts/**/*.d.ts",
+        "!./node_modules/**/*.ts",
+        "!./typings/**/*.ts"
+    ],
+    "formatCodeOptions": {
+        "indentSize": 4,
+        "tabSize": 4,
+        "convertTabsToSpaces": true
+    },
+    "files": [
+        "./ts/pages/about.ts",
+        "./ts/pages/index.ts"
+    ],
+    "compileOnSave": true,
+    "buildOnSave": true,
+    "exclude": [],
+    "atom": {
+        "rewriteTsconfig": true
+    }
+}

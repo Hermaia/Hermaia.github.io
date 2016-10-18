@@ -1,0 +1,13 @@
+{
+  "name": "labadie",
+  "version": "0.0.1",
+  "description": "0.0.1",
+  "main": "Jakefile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "inabe49",
+  "license": "MIT",
+  "devDependencies": {
+  }
+}
